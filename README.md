@@ -35,10 +35,25 @@ Robot, mis oskab:
 Nimekiri kõikidest 6 grupist ja nende ülesannetest
 
 Grupp 1 - Liikumine
+- 
+- 
+- 
 Grupp 2 - Märgituvastus
+- 
+- 
+- 
 Grupp 3 - Parkimine ja Sensorid
+- 
+- 
+- 
 Grupp 4 - Kommunikatstioon
+- 
+- 
+- 
 Grupp 5 - Testimine ja Analüüs
+- 
+- 
+- 
 Grupp 6 - Dokumentatsioon ja turundus
 - Sten Markus Pihlas
 - Marek Meinberg
