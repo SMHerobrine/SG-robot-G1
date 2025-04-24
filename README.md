@@ -53,7 +53,6 @@ Grupp 3 - Parkimine ja Sensorid
 Grupp 4 - Kommunikatstioon
 - Tarel Lakovitš
 - 
-
 Grupp 5 - Testimine ja Analüüs
 - 
 - 
