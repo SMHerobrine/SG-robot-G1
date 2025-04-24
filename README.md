@@ -54,7 +54,6 @@ Grupp 4 - Kommunikatstioon
 - Tarel Lakovitš
 - 
 - 
-
 Grupp 5 - Testimine ja Analüüs
 - 
 - 
