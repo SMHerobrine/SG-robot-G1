@@ -57,7 +57,7 @@ Grupp 4 - Kommunikatstioon
 - Ruudi Nellis
   
 Grupp 5 - Testimine ja Analüüs
-- 
+
 - 
 - 
 
