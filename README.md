@@ -52,7 +52,10 @@ Grupp 3 - Parkimine ja Sensorid
 
 Grupp 4 - Kommunikatstioon
 - Tarel Lakovitš
-- 
+- Kert-Kristjan Rahu
+- Karl Artur Sipelgas
+- Ruudi Nellis
+  
 Grupp 5 - Testimine ja Analüüs
 - 
 - 
