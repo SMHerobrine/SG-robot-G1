@@ -35,19 +35,20 @@ Robot, mis oskab:
 Nimekiri kõikidest 6 grupist ja nende ülesannetest
 
 Grupp 1 - Liikumine
-- 
-- 
-- 
+- Emma Tarus
+- Liisa Naulainen
+- Hanna Paju
 Grupp 2 - Märgituvastus
-- 
-- 
-- 
+- Boden Iam Greenwood
+- Mirko Antti Vikat
+- Karel Pagil
 Grupp 3 - Parkimine ja Sensorid
-- 
-- 
-- 
+- Mathias Mägi 
+- Indrek Reisko
+- Gert-Marol Kuris
+- Herko Tamm
 Grupp 4 - Kommunikatstioon
-- 
+- Tarel Lakovitš
 - 
 - 
 Grupp 5 - Testimine ja Analüüs
