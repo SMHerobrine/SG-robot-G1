@@ -57,9 +57,10 @@ Grupp 4 - Kommunikatstioon
 - Ruudi Nellis
   
 Grupp 5 - Testimine ja Analüüs
-
-- 
-- 
+- Hubert Spitsõn
+- Roven Reigo
+- Sander Veel
+- Artur Teller
 
 Grupp 6 - Dokumentatsioon ja turundus
 - Sten Markus Pihlas
