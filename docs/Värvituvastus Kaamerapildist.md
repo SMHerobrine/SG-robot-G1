@@ -43,7 +43,6 @@ Kaader salvestatakse NumPy massiivina BGR-vormingus (OpenCV eelistatud värvijä
 
 `HSV (Hue, Saturation, Value) värviruum sobib paremini värvituvastuseks.`
 
-<br/><br/>
 
 4. Värvimaskide loomine:
 
