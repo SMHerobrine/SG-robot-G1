@@ -1,6 +1,6 @@
 # 🧭 HMC5883L Kompassi Näidiskood (Arduino)
 
-**Failitee:** [`docs/color.py`](https://github.com/SMHerobrine/SG-robot-G1/blob/main/docs/kompassi_n%C3%A4idiskood.ino)
+**Failitee:** [`docs/kompassi_näidiskood.ino`](https://github.com/SMHerobrine/SG-robot-G1/blob/main/docs/kompassi_n%C3%A4idiskood.ino)
 
 ## Ülevaade
 
