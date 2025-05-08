@@ -14,7 +14,6 @@ See Python-programm tuvastab punased ja rohelised alad kaamerapildis, kasutades 
   - numpy 
 
 ## Koodi töövoog 
-<br/><br/>
 1. Kaamera seadistamine: 
 
 `camera = picamera.PiCamera()`
@@ -47,7 +46,7 @@ Kaader salvestatakse NumPy massiivina BGR-vormingus (OpenCV eelistatud värvijä
 
 4. Värvimaskide loomine:
 
-<br/><br/>
+
 a) Punane: 
 
 `lower_red = np.array([0, 120, 70])`
