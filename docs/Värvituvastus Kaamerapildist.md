@@ -24,6 +24,7 @@ See Python-programm tuvastab punased ja rohelised alad kaamerapildis, kasutades 
 
 Seadistab kaamera resolutsiooniks 640x480 pikslit. 
 
+<br/><br/>
 
 
 2. Pildi jäädvustamine: 
