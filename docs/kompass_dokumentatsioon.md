@@ -1,5 +1,7 @@
 # 🧭 HMC5883L Kompassi Näidiskood (Arduino)
 
+**Failitee:** [`docs/color.py`](https://github.com/SMHerobrine/SG-robot-G1/blob/main/docs/kompassi_n%C3%A4idiskood.ino)
+
 ## Ülevaade
 
 See näidiskood võimaldab määrata suuna (kompassi suuna) kraadides, kasutades **HMC5883L magnetomeetrit** ja **Adafruit HMC5883_Unified** teeki. Kood rakendab eelnevalt mõõdetud offsetid (kalibreerimisandmed), et parandada täpsust.
