@@ -1,6 +1,6 @@
 # 🎨 Värvituvastus Raspberry Pi kaameraga
 
-**Failitee:** `code/vision/color.py`
+**Failitee:** [`code/vision/color.py`](https://github.com/SMHerobrine/SG-robot-G1/blob/main/code/vision/color.py)
 
 ## 🧾 Ülevaade
 
