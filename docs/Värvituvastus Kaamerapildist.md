@@ -18,6 +18,7 @@ See Python-programm tuvastab punased ja rohelised alad kaamerapildis, kasutades 
 1. Kaamera seadistamine: 
 
 `camera = picamera.PiCamera()`
+
 `camera.resolution = (640, 480)`
  
 Seadistab kaamera resolutsiooniks 640x480 pikslit. 
@@ -26,6 +27,7 @@ Seadistab kaamera resolutsiooniks 640x480 pikslit.
 2. Pildi jäädvustamine: 
 
 `image = np.empty((480, 640, 3), dtype=np.uint8)`
+
 `camera.capture(image, "bgr")`
 
 Kaader salvestatakse NumPy massiivina BGR-vormingus (OpenCV eelistatud värvijärjestus). 
@@ -34,6 +36,7 @@ Kaader salvestatakse NumPy massiivina BGR-vormingus (OpenCV eelistatud värvijä
 3. Pildi teisendamine HSV-värviruumi: 
 
 `hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)`
+
 `HSV (Hue, Saturation, Value) värviruum sobib paremini värvituvastuseks.`
 
 
