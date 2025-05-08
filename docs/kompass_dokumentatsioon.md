@@ -118,15 +118,3 @@ Suund: 89.45°
    ```
 
 ---
-
-## Edasised ideed
-
-- Suuna reaalajas kuvamine LCD-le või OLED-ekraanile
-- Täiendav Z-telje kompensatsioon
-- Integreerimine GPS-iga
-
----
-
-## Autor
-
-📷 Koostatud põhinedes Adafruit'i näidiskoodil ja isiklikul kalibreerimisel.
