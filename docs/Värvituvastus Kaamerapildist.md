@@ -36,15 +36,15 @@ Seadistab kaamera resolutsiooniks 640x480 pikslit.
 Kaader salvestatakse NumPy massiivina BGR-vormingus (OpenCV eelistatud värvijärjestus). 
 <br/><br/>
 
-<br/><br/>
+
 3. Pildi teisendamine HSV-värviruumi: 
 
 `hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)`
 
 `HSV (Hue, Saturation, Value) värviruum sobib paremini värvituvastuseks.`
 
-
 <br/><br/>
+
 4. Värvimaskide loomine: 
 <br/><br/>
 a) Punane: 
