@@ -46,7 +46,7 @@ Kaader salvestatakse NumPy massiivina BGR-vormingus (OpenCV eelistatud värvijä
 
 4. Värvimaskide loomine:
 
-
+<br/><br/>
 a) Punane: 
 
 `lower_red = np.array([0, 120, 70])`
@@ -65,7 +65,6 @@ b) Roheline:
 `green_mask = cv2.inRange(hsv_image, lower_green, upper_green)`
  
 <br/><br/>
-
 5. Maskide rakendamine originaalpildile: 
 
 `red_result = cv2.bitwise_and(image, image, mask=red_mask)`
@@ -73,7 +72,6 @@ b) Roheline:
 `green_result = cv2.bitwise_and(image, image, mask=green_mask)`
 
 <br/><br/>
-
 6. Tulemuste kuvamine: 
 
 `cv2.imshow("Red Areas", red_result)`
