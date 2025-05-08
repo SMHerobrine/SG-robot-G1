@@ -22,7 +22,7 @@ See Python-programm tuvastab punased ja rohelised alad kaamerapildis, kasutades 
 
 
 Seadistab kaamera resolutsiooniks 640x480 pikslit. 
-<br/><br/>
+<br/><br/><br/><br/>
 
 
 2. Pildi jäädvustamine: 
@@ -44,7 +44,7 @@ Kaader salvestatakse NumPy massiivina BGR-vormingus (OpenCV eelistatud värvijä
 <br/><br/><br/><br/>
 
 4. Värvimaskide loomine:
-<br/><br/><br/><br/>
+<br/><br/>
 
 a) Punane: 
 
