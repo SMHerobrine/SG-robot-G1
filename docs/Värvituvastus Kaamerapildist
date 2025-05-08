@@ -1,6 +1,6 @@
-Path to Code: code/vision/color.py 
+# Path to Code: code/vision/color.py 
 
-- Ülevaade 
+## Ülevaade 
 See Python-programm tuvastab punased ja rohelised alad kaamerapildis, kasutades Raspberry Pi Camera, OpenCV-d ja HSV-värviruumi. Tuvastatud värvialad kuvatakse eraldi akendes. 
 
 
