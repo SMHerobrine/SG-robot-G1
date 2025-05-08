@@ -1,93 +1,76 @@
 // Ultraheliandurite Trig ja Echo pinni määramine 
 
-const int trigPins[3] = {8, 4, 3}; 
+const int trigPins[3] = {
+  8,
+  4,
+  3
+};
+const int echoPins[3] = {
+  7,
+  5,
+  2
+};
 
-const int echoPins[3] = {7, 5, 2}; 
+long duration;
+float distance;
 
-  
+void setup() {
+  Serial.begin(9600);
 
-long duration; 
+  // Määrame iga anduri Trig väljundiks ja Echo sisendiks 
 
-float distance; 
+  for (int i = 0; i < 3; i++) {
 
-  
+    pinMode(trigPins[i], OUTPUT);
 
-void setup() { 
+    pinMode(echoPins[i], INPUT);
 
-  Serial.begin(9600); 
+  }
 
-  
+}
 
-  // Määrame iga anduri Trig väljundiks ja Echo sisendiks 
+void loop() {
 
-  for (int i = 0; i < 3; i++) { 
+  for (int i = 0; i < 3; i++) {
 
-    pinMode(trigPins[i], OUTPUT); 
+    // Saatmissignaal Trig'ile 
 
-    pinMode(echoPins[i], INPUT); 
+    digitalWrite(trigPins[i], LOW);
 
-  } 
+    delayMicroseconds(2);
 
-} 
+    digitalWrite(trigPins[i], HIGH);
 
-  
+    delayMicroseconds(10);
 
-void loop() { 
+    digitalWrite(trigPins[i], LOW);
 
-  for (int i = 0; i < 3; i++) { 
+    // Vastuvõetav kestus Echo kaudu 
 
-    // Saatmissignaal Trig'ile 
+    duration = pulseIn(echoPins[i], HIGH);
 
-    digitalWrite(trigPins[i], LOW); 
+    // Kauguse arvutamine (cm) 
 
-    delayMicroseconds(2); 
+    distance = duration * 0.034 / 2;
 
-    digitalWrite(trigPins[i], HIGH); 
+    // Tulemuste kuvamine Serial Monitoris 
 
-    delayMicroseconds(10); 
+    Serial.print("Andur ");
 
-    digitalWrite(trigPins[i], LOW); 
+    Serial.print(i + 1);
 
-  
+    Serial.print(" kaugus: ");
 
-    // Vastuvõetav kestus Echo kaudu 
+    Serial.print(distance);
 
-    duration = pulseIn(echoPins[i], HIGH); 
+    Serial.println(" cm");
 
-  
+    delay(100); // Lühike paus iga anduri järel 
 
-    // Kauguse arvutamine (cm) 
+  }
 
-    distance = duration * 0.034 / 2; 
+  Serial.println("----------------------");
 
-  
+  delay(500); // Paus enne järgmist tsüklit 
 
-    // Tulemuste kuvamine Serial Monitoris 
-
-    Serial.print("Andur "); 
-
-    Serial.print(i + 1); 
-
-    Serial.print(" kaugus: "); 
-
-    Serial.print(distance); 
-
-    Serial.println(" cm"); 
-
-  
-
-    delay(100); // Lühike paus iga anduri järel 
-
-  } 
-
-  
-
-  Serial.println("----------------------"); 
-
-  delay(500); // Paus enne järgmist tsüklit 
-
-} 
-
-  
-
- 
+}
