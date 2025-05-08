@@ -28,6 +28,9 @@ Robot, mis oskab:
 2. Ühenda komponendid vastavalt /docs/schematics.png
 3. Käivita `main.py` Raspberry peal
 
+## Meedia
+[Instagram](https://www.instagram.com/sg.g1.robot2025/)
+
 ## Meeskond
 Nimekiri kõikidest 6 grupist ja nende ülesannetest
 
