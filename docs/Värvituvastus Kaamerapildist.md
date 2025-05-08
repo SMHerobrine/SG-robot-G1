@@ -44,8 +44,8 @@ Kaader salvestatakse NumPy massiivina BGR-vormingus (OpenCV eelistatud värvijä
 <br/><br/>
 
 4. Värvimaskide loomine:
-
 <br/><br/>
+
 a) Punane: 
 
 `lower_red = np.array([0, 120, 70])`
