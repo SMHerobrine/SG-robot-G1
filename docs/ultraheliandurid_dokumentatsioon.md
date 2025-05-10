@@ -1,8 +1,7 @@
 
 # 📡 Ultraheliandurite Kaugusemõõtmine (3 andurit)
 
-**Failitüüp:** `.ino` (Arduino sketch)  
-**Keel:** Arduino C++
+**Failitee:** [`code/sensors/ultraheli.ino`](https://github.com/SMHerobrine/SG-robot-G1/blob/main/code/sensors/ultraheli.ino)
 
 ## 🧾 Ülevaade
 
